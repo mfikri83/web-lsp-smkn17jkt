@@ -1,0 +1,80 @@
+@media all and (max-width : 670px) {
+    .container-nav {
+        width: 100%;
+        position: fixed;
+        left: 0;
+        display: none;
+    }
+
+    .container-nav nav li {
+        float: left;
+    }
+
+    .container {
+        width: 100%;
+        text-align: left;
+    }
+
+    .hero-title {
+        background-size: inherit;
+        background-repeat: no-repeat;
+    }
+
+    .hero-title h1 {
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .hero-title p {
+        font-size: 20px;
+    }
+    
+    main {
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    #content {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .box-article {
+        padding: 20px;
+    }
+
+    .content-box,
+    .box-jurusan {
+        margin-top: 0;
+    }
+
+    .txt-content h2 {
+        font-size: 25px;
+        text-align: justify;
+        padding: 20px;
+    }
+
+    .txt-content h3 {
+        font-size: 15px;
+    }
+
+    .txt-content p {
+        font-size: 20px;
+        padding: 20px;
+        text-align: justify;
+        text-indent: 40px;
+    }
+
+    .txt-content ul li {
+        font-size: 20px;
+        padding: 0 15px 15px 0;
+        text-align: justify;
+    }
+
+    footer {
+        font-size: 10px;
+        text-align: center;
+    }
+
+}

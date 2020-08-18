@@ -1,0 +1,226 @@
+@import "about.css";
+@import "login-style.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto',
+        'Lato',
+        Arial,
+        Tahoma,
+        sans-serif;
+    ;
+    margin: 0;
+    padding: 0;
+    background: #eaeaea;
+    /* reset html */
+}
+
+.container {
+    width: 70%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.menu-nav {
+    width: 80%;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    right: 140px;
+    z-index: 8;
+}
+
+.logo-17 {
+    width: 61px;
+    height: 62px;
+    margin: 4px 0 4px 47px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 22px;
+}
+
+nav li {
+    float: right;
+    margin-left: 20px;
+    list-style: none;
+    font-size: 20px;
+    /* position: fixed;
+    top: 25px;
+    right: 64px; */
+}
+
+nav li a {
+    color: #071C4D;
+    text-decoration: none;
+}
+
+.hight-home {
+    font-weight: bold;
+}
+
+li .box-login {
+    margin-left: 30px;
+    margin-right: -22px;
+}
+
+.box-login {
+    padding: 30px 33px;
+    background-color: #071C4D;
+    color: #ffffff;
+}
+
+nav li a:hover {
+    color: #000000;
+    /* font-weight: bold; */
+}
+
+nav ul li ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #333;
+    display: none;
+}
+
+
+.hero-title {
+    padding: 200px 0 180px 0;
+    background-image: url('../images/priscilla-du-preez-ggeZ9oyI-PE-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -290px;
+    text-align: center;
+    color: white;
+}
+
+.hero-title h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero-title p {
+    font-size: 40px;
+}
+
+.hero-title p,
+.hero-title h1 {
+    position: relative;
+    z-index: 7;
+}
+
+.hero-list li {
+    list-style: none;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+}
+
+.opacity-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    height: 598px;
+    background-color: rgba(34, 49, 52, 0.4);
+    overflow: hidden;
+}
+
+/* MAIN */
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+.date {
+    width: 75%;
+    padding: 30px 20px;
+    margin: 20px auto;
+    background-color: #071C4D;
+    color: white;
+}
+
+#content {
+    width: 75%;
+    padding: 30px 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flex-wrap {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    overflow: auto;
+}
+
+.flex-wrap a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    margin-left: 30px;
+}
+
+.flex-wrap a:hover {
+    background-color: #071C4D;
+    color: white;
+}
+
+.box-article h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.box-jurusan {
+    flex-wrap: wrap;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    margin: 50px;
+}
+
+.content-box .box-jurusan {
+    flex: auto;
+}
+
+.akl,
+.otkp,
+.bdp,
+.rpl {
+    /* width: 375px; */
+    height: 90px;
+    margin-top: -28px;
+    background-color: #071C4D;
+}
+
+.font-jurusan {
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid black;
+    background-color: white;
+}

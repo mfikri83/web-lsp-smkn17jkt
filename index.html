@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LSP SMK NEGERI 17 JAKARTA</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/responsiv.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu-nav">
+            <img class="logo-17" src="public/images/LOGO_SMKN_17_JAKARTA-removebg-preview 1.png" alt="logo-17">
+            <nav>
+                <ul>
+                    <li><a href="login.html" class="box-login"><span class="hight-login">Login</span></a></li>
+                    <li><a href="schema.html">Skema Uji Kompetensi</a></li>
+                    <li><a href="certificate.html">Sertifikasi</a></li>
+                    <li><a href="profile.html">Profil</a>
+                        <ul>
+                            <li><a href="#">Visi Misi</a></li>
+                            <li><a href="#">Kebijakan Mutu</a></li>
+                            <li><a href="#">Kontak</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">Tentang</a></li>
+                    <li><a href="#"><span class="hight-home">Beranda</span></a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="hero-title">
+            <div class="opacity-image"></div>
+            <div class="container">
+                <h1>Lembaga Sertifikasi Profesi</h1>
+                <p>SMK NEGERI 17 JAKARTA</p>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="date">
+            <script>
+                const bulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus",
+                    "September", "Oktober", "November", "Desember"
+                ];
+
+                var tanggal = new Date();
+                var month = tanggal.getMonth();
+
+                document.write("Tanggal : " + tanggal.getDate() + " " + bulan[month] + " " + tanggal.getFullYear());
+            </script>
+        </div>
+        <div id="content">
+            <div class="box-article">
+                <h1>UJI KOMPETENSI</h1>
+            </div>
+            <div class="content-box">
+                <div class="box-jurusan">
+                    <div class="akl">
+                        <h2 class="font-jurusan">Akuntansi dan Keuangan Lembaga</h2>
+                    </div>
+                    <img src="public/images/akl.png" alt="" width="370px" height="310px">
+                </div>
+                <div class="box-jurusan">
+                    <div class="otkp">
+                        <h2 class="font-jurusan">Otomatisasi dan Tata Kelola Perkantoran</h2>
+                    </div>
+                    <img src="public/images/otkp.png" alt="" width="370px" height="310px">
+                </div>
+                <div class="box-jurusan">
+                    <div class="bdp">
+                        <h2 class="font-jurusan">Bisnis Daring dan Pemasaran</h2>
+                    </div>
+                    <img src="public/images/bdp.png" alt="" width="370px" height="300px">
+                </div>
+                <div class="box-jurusan">
+                    <div class="rpl">
+                        <h2 class="font-jurusan">Rekayasa Perangkat Lunak</h2>
+                    </div>
+                    <img src="public/images/rpl.png" alt="" width="370px" height="300px">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>2019 Copyright SMK Negeri 17 Jakarta • All rights reserved • Made in Jakarta</p>
+        <p>Fikri • Dini • Khotimah • Dwi Hartati • Topan</p>
+    </footer>
+    <script src="public/js/script.js"></script>
+</body>
+
+</html>
